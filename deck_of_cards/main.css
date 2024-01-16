@@ -1,0 +1,36 @@
+body{
+    background-color: #2f6b4d;
+}
+
+img{
+    width: fit-content;
+    height: fit-content;
+}
+#card-container{
+    position: relative;
+    width: 25%;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.card{
+    position: absolute;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: gray; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}

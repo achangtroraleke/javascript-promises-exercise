@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/number_facts/main.css">
+    <title>Number Facts</title>
+</head>
+<body>
+    <div class="container flex-column">
+        <h1>Fun Facts About Numbers</h1>
+        <form id="number-form">
+            <label for="number">Enter a number: </label>
+            <input type="number" name="number" required>
+            <input type="submit" value="Add Favorite Number">
+            <button id="get-data-btn">Get Facts</button>
+            <button id="reset-btn">Reset</button>
+        </form>
+        
+        <ul id="favorite-numbers" class="flex">
+            <h3>Your Favorite Numbers:</h3>
+        </ul>
+        <h3>Fun Facts:</h3>
+        <ul id="result-container" class="flex-column">
+
+        </ul>
+    </div>
+
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="/number_facts/index.js"></script>
+</body>
+</html>
